@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/anothertry/static/css/main.a95118d4.css",
+    "main.js": "/anothertry/static/js/main.7393e536.js",
+    "static/media/Capture12.png": "/anothertry/static/media/Capture12.38b624991010ed18629b.png",
+    "static/media/p2-removebg.png": "/anothertry/static/media/p2-removebg.1de1befff0696b44f572.png",
+    "static/media/Capture11.png": "/anothertry/static/media/Capture11.e42302c95f2855b08a62.png",
+    "static/media/Angle_valve-removebg-preview-removebg-preview.png": "/anothertry/static/media/Angle_valve-removebg-preview-removebg-preview.2d26236b0e53f12ade78.png",
+    "static/media/albi-logo-removebg-preview.png": "/anothertry/static/media/albi-logo-removebg-preview.49340751e394438007c6.png",
+    "static/media/Capture3-removebg.png": "/anothertry/static/media/Capture3-removebg.7e588614ecc275a222f6.png",
+    "static/media/r1.png": "/anothertry/static/media/r1.97212d3d6def63f2932d.png",
+    "static/media/Capture7-removebg.png": "/anothertry/static/media/Capture7-removebg.0f088e8476ab65ccb14b.png",
+    "static/media/Capture6-removebg.png": "/anothertry/static/media/Capture6-removebg.53a33e6671164e8182b6.png",
+    "static/media/Capture-removebg.png": "/anothertry/static/media/Capture-removebg.7ebf46e0eb9c67e952c0.png",
+    "static/media/Capture5-removebg.png": "/anothertry/static/media/Capture5-removebg.635978e05825b172454d.png",
+    "static/media/technology.png": "/anothertry/static/media/technology.77a89e263cced888db61.png",
+    "static/media/valve.png": "/anothertry/static/media/valve.2d5a13ab31a855e7c533.png",
+    "static/media/valve  automation.png": "/anothertry/static/media/valve  automation.79a96aa93bcaf3dfa707.png",
+    "static/media/companyphoto.png": "/anothertry/static/media/companyphoto.c69a9d760c42eadf397f.png",
+    "index.html": "/anothertry/index.html",
+    "main.a95118d4.css.map": "/anothertry/static/css/main.a95118d4.css.map",
+    "main.7393e536.js.map": "/anothertry/static/js/main.7393e536.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a95118d4.css",
+    "static/js/main.7393e536.js"
+  ]
+}
