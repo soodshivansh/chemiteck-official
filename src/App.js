@@ -1,3 +1,4 @@
+import './App.scss';          
 import About from "./Components/About";
 import Hero from "./Components/Hero";
 import Markers from "./Components/Markers";
@@ -7,6 +8,7 @@ import Parallaxcarousel from "./Components/Parallaxcarousel";
 import Articles from "./Components/Articles";
 import Location from "./Components/Location";
 import Footer from "./Components/Footer";
+import Catalogue from './Components/Catalogue';
 
 export default function App() {
   return (
@@ -14,6 +16,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Parallaxcarousel />
+      <Catalogue />
       <Markers />
       <About />
       <Products />
