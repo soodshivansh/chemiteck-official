@@ -1,7 +1,7 @@
 import '../Components/footer.css'
 import img from '../Assets/photos/companyphoto.png'
 
-export default function(){
+export default function Footer(){
     return(
         <footer className="footer">
             <div className="container px-10">
