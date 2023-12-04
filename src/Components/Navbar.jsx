@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import './Navbar.scss'
 import Headroom from "react-headroom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -15,11 +16,11 @@ const Navbar = () => {
         <>
             <Headroom>
                 <div className={`font-hind flex justify-between items-center h-20 max-w-[1240] mx-auto px-4 text-white bg-[#090f1d] border-b`} id="navbar">
-                    <h1 className="text-3xl font-bold text-[#415CAB]">Chemiteck.</h1>
+                    <h1 className="text-3xl font-bold text-[#415CAB]"><Link to="/">Chemiteck.</Link></h1>
                     <ul className="hidden md:flex items-center relative lg:left-16">
-                        <li className="p-4 hover:border-b">Home</li>
+                        <li className="p-4 hover:border-b"><Link to="/">Home</Link></li>
                         <li className="p-4 hover:border-b">About</li>
-                        <li className="p-4 hover:border-b">Products</li>
+                        <li className="p-4 hover:border-b"><Link to="/products">Products</Link></li>
                         <li className="p-4 hover:border-b">Articles</li>
                         {/* <li className="p-4 hover:border-b">Solutions</li> */}
                         {/* <li className="p-4 hover:border-b">Services</li> */}

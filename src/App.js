@@ -1,28 +1,28 @@
 import './App.scss';          
-import About from "./Components/About";
-import Hero from "./Components/Hero";
-import Markers from "./Components/Markers";
-import Navbar from "./Components/Navbar";
-import Products from "./Components/Products";
-import Parallaxcarousel from "./Components/Parallaxcarousel";
-import Articles from "./Components/Articles";
-import Location from "./Components/Location";
-import Footer from "./Components/Footer";
-import Catalogue from './Components/Catalogue';
+import Home from './Pages/Home'
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Productlist from './Pages/Productlist';
+import Valve from './Components/Valve';
+import ValvAutomation from './Components/ValveAutomation';
+import SSTCFittingsValves from './Components/SSTCFittings&Valves';
 
 export default function App() {
+
   return (
+
     <div className="App">
-      <Navbar />
-      <Hero />
-      <Parallaxcarousel />
-      <Catalogue />
-      <Markers />
-      <About />
-      <Products />
-      <Articles />
-      <Location />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+
+          <Route index path='/' element={<Home />} />
+          <Route path='/products' element={<Productlist />} />
+          <Route path='/products/valve' element={<Valve />} />
+          <Route path='/products/Valve-Automation' element={<ValvAutomation />} />
+          <Route path='/products/SS-TC-Fittings-Valves' element={<SSTCFittingsValves />} />
+
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
