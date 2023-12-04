@@ -28,8 +28,8 @@ const Navbar = () => {
                         <li className="lg:hidden md:block hidden p-4 hover:border-b">Contact</li>
                     </ul>
                     <div className="hidden lg:flex gap-3">
-                        <button>Catalogue</button>
-                        <button>Contact</button>
+                        <button className="navbarbutton">Catalogue</button>
+                        <button className="navbarbutton">Contact</button>
                     </div>
                     <div onClick={handlenav} className="block md:hidden">
                         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}

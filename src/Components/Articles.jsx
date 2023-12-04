@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import art1 from '../Assets/photos/Design-removebg-preview.png'
+import art2 from '../Assets/photos/Design2-removebg-preview.png'
 
 
 
@@ -33,7 +34,7 @@ const Articles = () => {
                     </div>
                     <div className="flex w-[18rem] flex-col gap-5">
                         <div className="buttonn lg:w-[18rem] lg:h-[18rem] md:w-[14rem] md:h-[14rem] w-[14rem] h-[14rem]">
-                            
+                            {/* <img className="lg:w-[16rem] lg:h-[16rem] w-[12rem] h-[12rem]" src={art2} alt="/" /> */}
                         </div>
                         <div className="font-Signika flex flex-col mx-auto pl-5 pr-5 gap-5">
                             <h1>The Innovation of Angle Body Piston Actuated Valves by ALBI Fluid Controls</h1>

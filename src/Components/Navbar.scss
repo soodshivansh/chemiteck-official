@@ -1,4 +1,4 @@
-button {
+.navbarbutton{
     padding: 0.5em 1.4em;
  display: flex;
  align-items: center;
@@ -18,7 +18,7 @@ button {
  color: #ffffff;
 }
 
-button::before {
+.navbarbutton::before {
  content: '';
  width: 0;
  height: 300%;
@@ -32,11 +32,11 @@ button::before {
  z-index: -1;
 }
 
-button:hover::before {
+.navbarbutton:hover::before {
  width: 105%;
 }
 
-button:hover {
+.navbarbutton:hover {
  color: #ffffff;
 }
 img{
@@ -193,3 +193,5 @@ img{
   .radio-input label:nth-child(3):has(input:checked) ~ .selection {
     transform: translateX(calc(var(--container_width) * 2/3));
   }
+
+
