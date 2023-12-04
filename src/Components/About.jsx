@@ -6,7 +6,7 @@ import part2 from '../Assets/photos/ec-logo.png'
 const About = () => {
 
     return(
-        <div className="w-full flex justify-center flex-col mx-auto md:p-10 p-5 bg-[#e6e7e7]">
+        <div id="about" className="w-full flex justify-center flex-col mx-auto md:p-10 p-5 bg-[#e6e7e7]">
             <div className="bg-[#090f1d] rounded-[50px] w-full justify-center flex flex-col lg:p-28 sm:p-14 p-7">
                 <div className="w-full lg:gap-0 gap-10 flex lg:flex-row flex-col items-center justify-center mx-auto">
                     <div className="text-center lg:text-left">

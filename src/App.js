@@ -6,6 +6,7 @@ import Productlist from './Pages/Productlist';
 import Valve from './Components/Valve';
 import ValvAutomation from './Components/ValveAutomation';
 import SSTCFittingsValves from './Components/SSTCFittings&Valves';
+import Contact from './Pages/Contact';
 
 export default function App() {
 
@@ -17,6 +18,7 @@ export default function App() {
 
           <Route index path='/' element={<Home />} />
           <Route path='/products' element={<Productlist />} />
+          <Route path='/contactus' element={<Contact />} />
           <Route path='/products/valve' element={<Valve />} />
           <Route path='/products/Valve-Automation' element={<ValvAutomation />} />
           <Route path='/products/SS-TC-Fittings-Valves' element={<SSTCFittingsValves />} />
