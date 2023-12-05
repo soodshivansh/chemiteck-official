@@ -10,7 +10,8 @@ const Location = () => {
                 <p className="font-Signika sm:text-xl"><strong>Phone:</strong><br/><i class="fa-solid fa-square-phone"></i> +91 9560391635<br/> <i class="fa-solid fa-square-phone"></i> +91 9289381979</p>
             </div>
             <div className="md:w-[50%] h-[45vh] w-[100%] overflow-hidden">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.7067536462932!2d77.37438527547978!3d28.6385497256615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce57118fc3e19%3A0xe11686805a18e5a1!2sRoyale%20Tower!5e0!3m2!1sen!2sin!4v1701701757100!5m2!1sen!2sin" width="100%" height="100%" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.7067536462932!2d77.37438527547978!3d28.6385497256615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce57118fc3e19%3A0xe11686805a18e5a1!2sRoyale%20Tower!5e0!3m2!1sen!2sin!4v1701701757100!5m2!1sen!2sin" width="100%" height="100%" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> 
         </div>
 
     )

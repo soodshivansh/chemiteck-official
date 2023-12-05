@@ -7,6 +7,7 @@ import Valve from './Components/Valve';
 import ValvAutomation from './Components/ValveAutomation';
 import SSTCFittingsValves from './Components/SSTCFittings&Valves';
 import Contact from './Pages/Contact';
+import Progressicon from './Components/Progressicon';
 
 export default function App() {
 

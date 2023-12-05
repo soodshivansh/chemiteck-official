@@ -101,7 +101,7 @@ export default function Productlist() {
           }
       </div>
 
-      <div className={`flex md:-mt-0 -mt-48 duration-200 ${isOpen ? '-mt-0' : ''}`}>
+      <div className={`flex md:-mt-0 duration-200 ${isOpen ? '-mt-0' : '-mt-48'}`}>
         {renderComponent()}
       </div>
 
