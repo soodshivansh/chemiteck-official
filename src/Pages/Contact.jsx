@@ -23,7 +23,7 @@ export default function Contact (){
     return(
         <div>
             <Navbar />
-            <div className="text-white flex md:flex-row flex-col justify-center w-full h-[60vh] p-10 gap-20">
+            <div className="text-white flex md:flex-row flex-col justify-center w-full p-10 gap-20">
                 <div className="text-left flex flex-col w-[50%]">
                     <h1 className="font-Arvo md:text-4xl sm:text-2xl text-2xl font-semibold">GET IN TOUCH</h1>
                     <div className="bg-[#415cab] w-80 h-2 mt-5 mb-5"></div>
