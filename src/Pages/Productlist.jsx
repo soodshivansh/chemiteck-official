@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Footer from "../Components/Footer";
 import Navbar from '../Components/Navbar';
 import Valve from '../Components/Valve';
@@ -7,8 +7,17 @@ import SSTCFittingsAndValves from '../Components/SSTCFittings&Valves';
 import '../Components/Navbar.scss'
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai';
 import list from '../Components/list.json'
+import { NavLink, useLocation } from 'react-router-dom';
+
 
 export default function Productlist() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   const [selectedValue, setSelectedValue] = useState('value-1');
 
   const renderComponent = () => {

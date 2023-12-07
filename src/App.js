@@ -8,6 +8,7 @@ import ValvAutomation from './Components/ValveAutomation';
 import SSTCFittingsValves from './Components/SSTCFittings&Valves';
 import Contact from './Pages/Contact';
 import Progressicon from './Components/Progressicon';
+import Cataloguepage from './Pages/Cataloguepage';
 
 export default function App() {
 
@@ -19,6 +20,7 @@ export default function App() {
 
           <Route index path='/' element={<Home />} />
           <Route path='/products' element={<Productlist />} />
+          <Route path='/catalogues' element={<Cataloguepage />} />
           <Route path='/contactus' element={<Contact />} />
           <Route path='/products/valve' element={<Valve />} />
           <Route path='/products/Valve-Automation' element={<ValvAutomation />} />
