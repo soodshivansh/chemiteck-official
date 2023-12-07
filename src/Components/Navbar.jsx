@@ -44,7 +44,7 @@ const Navbar = () => {
                     <NavLink to="/products"><li className="p-4 border-b border-gray-600 ">Products</li></NavLink>
                     <a href="/#articles"><li className="p-4 border-b border-gray-600 " onClick={() => usenav(!nav)}>Resources</li></a>
                     <div className="flex flex-col mx-auto gap-5 mt-10">
-                        <button className="navbarbutton w-full">Catalogue</button>
+                        <NavLink to="/catalogues" className="navbarbutton w-full"><button>Catalogue</button></NavLink>
                         <NavLink to="/contactus"><button className="navbarbutton w-full">Contact</button></NavLink>
                     </div>
                 </ul>

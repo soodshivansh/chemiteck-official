@@ -1,8 +1,9 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import animate from '../Assets/forcatalogue.json';
 import Lottie,{LottieRefCurrentProps} from "lottie-react";
+import { useLocation } from 'react-router-dom';
 
 import pdf1 from '../Assets/catalogues/chemiteck product catalogue.pdf'
 import pdf2 from '../Assets/catalogues/Ball Valves - Floaters & Trunion Mounted.pdf'
@@ -88,6 +89,14 @@ const catalogues = [
   ];
 
 export default function Cataloguepage() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  const [selectedValue, setSelectedValue] = useState('value-1');
 
 const animateref = useRef();
 
