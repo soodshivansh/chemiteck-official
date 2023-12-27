@@ -60,44 +60,44 @@ const Parallaxcarousel = () => {
         <div className="overflow-hidden max-w-[2200px] w-full mx-auto -z-10">
             <div className="rightshift flex justify-center" ref={comp1}>
             <div className="flex w-[1960px] justify-center gap-5 mt-10 mb-28 -ml-[50%]">
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img src={A} alt='/' className='w-[60%]'/>
                 </div>
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img className="w-[7rem]" src={B} alt='/'/>
                 </div>
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img src={C} alt='/' className='w-[60%]'/>
                 </div>
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img src={D} alt='/' className='w-[60%]'/>
                 </div>
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img src={E} alt='/' className='w-[60%]'/>
                 </div>
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img src={A} alt='/' className='w-[7rem]'/>
                 </div>
             </div>
             </div>
             <div className="leftshift flex justify-center" ref={comp2}>
             <div className="flex w-[1960px] justify-start gap-5 -mt-24 mb-28 ml-[50%]">
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img src={F} alt='/' className='w-[60%]'/>
                 </div>
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img src={G} alt='/' className='w-[60%]'/>
                 </div>
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img src={H} alt='/' className='w-[60%]'/>
                 </div>
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img src={I} alt='/' className='w-[60%]'/>
                 </div>
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img src={J} alt='/' className='w-[60%]'/>
                 </div>
-                <div className="box border md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
+                <div className="box border rounded-xl md:w-96 md:h-60 sm:w-64 sm:h-44 w-44 h-32">
                 <img src={K} alt='/' className='w-[60%]'/>
                 </div>
             </div>

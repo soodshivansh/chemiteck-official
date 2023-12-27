@@ -14,7 +14,7 @@ const Articles = () => {
     }
 
     return(
-        <div id="articles" className="text-white flex flex-col md:h-[100vh] h-[80vh] lg:pt-28 lg:pr-28 lg:pl-36 pt-16 pr-16 pl-16 lg:gap-20 gap-10 w-full overflow-hidden">
+        <div id="articles" className="text-black flex flex-col lg:pt-28 lg:pr-28 lg:pl-36 p-16 lg:gap-20 gap-10 w-full overflow-hidden">
             <div className="flex gap-14">
                 <h1 className="font-Arvo lg:text-4xl md:text-4xl sm:text-3xl text-2xl font-bold">Stories & Articles</h1>
                 <AiOutlineArrowRight className={`sm:hidden ease-linear duration-300 ${shift ? '' : 'rotate-180'}`} onClick={handleshift} size={25} />

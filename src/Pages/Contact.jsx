@@ -40,27 +40,27 @@ export default function Contact (){
     return(
         <div>
             <Navbar />
-            <div className="text-white flex md:flex-row flex-col justify-center w-full p-10 gap-20">
+            <div className="text-white flex md:flex-row flex-col justify-center w-full p-10 gap-20 mt-16 mb-5">
                 <div className="text-left flex flex-col">
-                    <h1 className="font-Arvo md:text-4xl sm:text-2xl text-2xl font-semibold">GET IN TOUCH</h1>
+                    <h1 className="font-Arvo text-[#090F1D] md:text-4xl sm:text-2xl text-2xl font-semibold">GET IN TOUCH</h1>
                     <div className="bg-[#415cab] w-80 h-2 mt-5 mb-5"></div>
-                    <div>
+                    <div className='text-[#415cab]'>
                         <div className='flex gap-5 p-5'>
-                            <i className="fa-solid fa-location-dot fa-xl relative top-2"></i>
-                            <p>RTG-82, Shipra Royal Tower market, Indirapuram, Ghaziabad, UP - 201014</p>
+                            <i className="fa-solid fa-location-dot fa-xl relative top-2 text-[#090F1D]"></i>
+                            <p className='text-lg'>RTG-82, Shipra Royal Tower market, Indirapuram, Ghaziabad, UP - 201014</p>
                         </div>
                         <div className='flex gap-5 p-5'>
-                            <i className="fa-solid fa-phone fa-xl relative top-2"></i>
-                            <p>+91 9560391635 ,  +91 9289381979</p>
+                            <i className="fa-solid fa-phone fa-xl relative top-2 text-[#090F1D]"></i>
+                            <p className='text-lg'>+91 9560391635 ,  +91 9289381979</p>
                         </div>
                         <div className='flex gap-5 p-5'>
-                            <i className="fa-solid fa-envelope fa-xl relative top-2"></i>
-                            <p>sales@chemiteck.in , chemiteck1675@gmail.com</p>
+                            <i className="fa-solid fa-envelope fa-xl relative top-2 text-[#090F1D]"></i>
+                            <p className='text-lg'>sales@chemiteck.in , chemiteck1675@gmail.com</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex flex-col justify-center">
-                    <form className="" ref={form} onSubmit={sendEmail}>
+                    {/* <form className="" ref={form} onSubmit={sendEmail}>
                         <div className="grid gap-6" id="form">
                             <div className="w-full flex gap-3">
                                 <input className="text-black capitalize shadow-2xl p-3 ex w-full outline-none focus:border-solid focus:border-[1px] border-[#035ec5] placeholder:text-black" type="text" placeholder="First Name" id="First-Name" name="First-Name" required min="0" max="15" />
@@ -74,7 +74,29 @@ export default function Contact (){
                             </div>
                             <button className="outline-none glass shadow-2xl  w-full p-3  bg-[#ffffff42] hover:border-[#035ec5] hover:border-solid hover:border-[1px]  hover:text-[#035ec5] font-bold" type="submit" value="Send">Submit</button>
                         </div>
-                    </form>
+                    </form> */}
+
+
+                    <div class="w-96 rounded-xl bg-[#090F1D]">
+                        <form className="" ref={form} onSubmit={sendEmail}>
+                            <div class="flex flex-col gap-2 p-8">
+                                <p class="text-center text-3xl text-gray-300 mb-4">Enquire</p>
+                                <input class="bg-slate-900 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-800" type="text" placeholder="Full Name" name="Full-Name" required min="0" max="15" />
+                                <input class="bg-slate-900 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-800" type="Email" placeholder="Email" id="Email" name="email" required min="0" max="40" />
+                                <input class="bg-slate-900 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-800" type="text" placeholder="Message" name="message" required min="0" max="200" rows="5" />
+                                <label class="flex cursor-pointer items-center justify-between p-1 text-slate-400">
+                                Accept terms of use
+                                <div class="relative inline-block">
+                                    <input class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-gary-400 checked:border-green-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" type="checkbox" />
+                                    <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-slate-600 transition-all duration-200 peer-checked:left-7 peer-checked:bg-green-300"></span>
+                                </div>
+                                </label>
+                                <button class="inline-block cursor-pointer rounded-md bg-gray-700 px-4 py-3.5 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 active:scale-95" type="submit" value="Send">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+
+
                     {popupMessage && (
                         <div className="popup">
                             <div className="popup-content">

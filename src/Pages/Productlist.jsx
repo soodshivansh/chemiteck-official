@@ -45,7 +45,7 @@ export default function Productlist() {
   return (
     <div>
       <Navbar />
-      <div className=" md:block hidden text-white w-full mx-auto gap-10 p-10 -z-10">
+      <div className=" md:block hidden text-black w-full mx-auto gap-10 p-10 -z-10">
         <div className="radio-input w-full mx-auto">
           <label>
             <input
@@ -85,7 +85,7 @@ export default function Productlist() {
       </div>
 
       <div className='md:hidden relative flex flex-col items-center p-10 w-full h-[340px] rounded-lg'>
-          <button onClick={() => setIsOpen((prev) => !prev)} className='bg-[#414CAB] p-4 w-full flex items-center justify-between font-bold text-lg rounded-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white'>
+          <button onClick={() => setIsOpen((prev) => !prev)} className='bg-[#414CAB] text-white p-4 w-full flex items-center justify-between font-bold text-lg rounded-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white'>
               {text}
               {!isOpen ? (
                 <AiOutlineCaretDown className='h-8' />
@@ -98,7 +98,7 @@ export default function Productlist() {
             {list.map((item, i) => (
               <div
                 onClick={() => {setSelectedValue(`value-${i+1}`);changetext(item.value,i)}}
-                className='flex w-full justify-between p-4 hover:bg-[#1a2544] cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4'
+                className='flex w-full justify-between p-4 hover:bg-[#090F1D] text-white cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4'
                 key={i}
               >
                 <h3 className='font-bold'>

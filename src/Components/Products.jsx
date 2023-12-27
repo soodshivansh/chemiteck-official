@@ -13,7 +13,7 @@ const Products = () => {
     }, [location]);
 
     return(
-        <div className="bg-[#e6e7e7] w-full p-20">
+        <div className="bg-[#EFF9F0] w-full p-20">
             <div className="text-black max-w-[800px] p-2 w-full mx-auto text-center flex flex-col justify-top">
                 <h1 className="font-Arvo lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-bold">Your Solution in Every Product.</h1>
             </div>

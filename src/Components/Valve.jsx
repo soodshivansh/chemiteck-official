@@ -91,7 +91,7 @@ export default function Valve(){
                     </div>
                     <div className='md:p-10 p-0 md:text-left text-center flex flex-col justify-start'>
                         <div className='md:flex-row flex items-center flex-row-reverse gap-6 w-full md:justify-start justify-center'>
-                        <h1 className='font-Arvo md:text-4xl sm:text-3xl text-2xl font-semibold md:py-6'>
+                        <h1 className='font-Arvo text-[#090F1D] md:text-4xl sm:text-3xl text-2xl font-semibold md:py-6'>
                             {product.title}
                         </h1>
                         <div className='bg-[#415CAB] w-2 h-20'></div>
