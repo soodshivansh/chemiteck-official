@@ -64,7 +64,7 @@ export default function Contact (){
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col items-center justify-center">
 
                     <div class="w-96 rounded-xl bg-[#090F1D]">
                         <form className="" ref={form} onSubmit={sendEmail}>
