@@ -4,7 +4,7 @@ import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 import './Navbar.scss';
 import Headroom from "react-headroom";
 import img1 from '../Assets/photos/output-onlinepngtools.png'
-import img2 from '../Assets/photos/companyphoto.png'
+import img2 from '../Assets/photos/companyphoto-removebg-preview.png'
 
 const Navbar = () => {
 
