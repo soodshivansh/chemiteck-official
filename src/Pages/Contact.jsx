@@ -45,10 +45,10 @@ export default function Contact (){
         <div>
             <Navbar />
             <ToastContainer position="top-right" autoClose={3000} />
-            <div className="text-white flex md:flex-row flex-col justify-center w-full p-10 gap-20 mt-16 mb-5">
-                <div className="text-left flex flex-col">
+            <div className="text-white flex md:flex-row flex-col justify-center w-full p-10 mt-16 mb-5 md:gap-0 gap-10">
+                <div className="text-left flex flex-col md:mt-8">
                     <h1 className="font-Arvo text-[#090F1D] md:text-4xl sm:text-2xl text-2xl font-semibold">GET IN TOUCH</h1>
-                    <div className="bg-[#415cab] w-80 h-2 mt-5 mb-5"></div>
+                    <div className="bg-[#415cab] xs:w-80 w-60 h-2 mt-5 mb-5"></div>
                     <div className='text-[#415cab]'>
                         <div className='flex gap-5 p-5'>
                             <i className="fa-solid fa-location-dot fa-xl relative top-2 text-[#090F1D]"></i>
@@ -58,15 +58,15 @@ export default function Contact (){
                             <i className="fa-solid fa-phone fa-xl relative top-2 text-[#090F1D]"></i>
                             <p className='text-lg'>+91 9560391635 ,  +91 9289381979</p>
                         </div>
-                        <div className='flex gap-5 p-5'>
+                        <div className='flex gap-5 p-5 w-full overflow-hidden'>
                             <i className="fa-solid fa-envelope fa-xl relative top-2 text-[#090F1D]"></i>
                             <p className='text-lg'>sales@chemiteck.in , chemiteck1675@gmail.com</p>
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col items-center justify-center md:w-[50%] w-full">
 
-                    <div class="w-96 rounded-xl bg-[#090F1D]">
+                    <div class="md:w-[80%] w-full rounded-xl bg-[#090F1D]">
                         <form className="" ref={form} onSubmit={sendEmail}>
                             <div class="flex flex-col gap-2 p-8">
                                 <p class="text-center text-3xl text-gray-300 mb-4">Enquire</p>
