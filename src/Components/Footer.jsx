@@ -1,5 +1,6 @@
 import '../Components/footer.css'
 import img from '../Assets/photos/companyphoto.png'
+import { NavLink } from "react-router-dom";
 
 export default function Footer(){
     return(
@@ -14,16 +15,16 @@ export default function Footer(){
                             <li><a href="#"><i class="fa-solid fa-square-phone"></i> +91 9289381979</a></li>
                             <li><a href="#" style={{color:"white"}}><strong>Mail:</strong></a></li>
                             <li><a href="#"><i class="fa-solid fa-envelope"></i> sales@chemiteck.in</a></li>
-                            <li><a href="#"> chemiteck1675@gmail.com</a></li>
+                            <li><a href="#"><i class="fa-solid fa-envelope"></i> chemiteck1675@gmail.com</a></li>
                         </ul>
                     </div>
                     <div className="footer-col">
                         <h4>Quick links</h4>
                         <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#catalogue">Catalogue</a></li>
+                            <li><a><NavLink to="/catalogues">Catalogues</NavLink></a></li>
                             <li><a href="#articles">Articles</a></li>
                             <li><a href="#product-range">Products</a></li>
+                            <li><a href="#product-range"><NavLink to="/contactus">Contact</NavLink></a></li>
                         </ul>
                     </div>
                     <div className="footer-col">
@@ -31,7 +32,8 @@ export default function Footer(){
                         <ul>
                             <li><a href="https://phbbvalves.com/" target="_blank">PHBB Valves Pvt. Limited</a></li>
                             <li><a href="#">Engineers Combine</a></li>
-                            <li><a href="#" target="_blank">Flowmax Engineering</a></li>
+                            <li><a href="#">Flowmax Engineering</a></li>
+                            <li><a href="#">Ztek Flowmeters</a></li>
                         </ul>
                     </div>
                     <div className="footer-col">

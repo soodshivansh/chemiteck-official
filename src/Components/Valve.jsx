@@ -10,6 +10,9 @@ import p9 from '../Assets/Product images/9-removebg-preview.png'
 import p10 from '../Assets/Product images/10-removebg-preview.png'
 import p11 from '../Assets/Product images/11-removebg-preview.png'
 import'./Navbar.scss'
+import React from 'react'
+import LefR from '../Animation/LefR'
+import RightL from '../Animation/RightL'
 
 const products = [
     {
@@ -84,11 +87,16 @@ export default function Valve(){
     return(
         <div className='text-white flex flex-col items-center w-full mx-auto md:pl-10'>
             {products.map((product) => (
-                <div key={product.id} className='flex items-center md:flex-row flex-col w-[80%]'>
-                    <div className='md:p-10 p-5 flex md:flex-col flex-row'>
+              
+                <div className='flex items-center md:flex-row flex-col w-[80%]'>
+                  <LefR>
+                    <div
+                      className='md:p-10 p-5 flex md:flex-col flex-row'>
                         <img className='w-64' src={product.image} alt='/' />
                         <div className='bg-[#415CAB] md:w-44 md:h-2 w-2 h-44'></div>
                     </div>
+                    </LefR>
+                    <RightL>
                     <div className='md:p-10 p-0 md:text-left text-center flex flex-col justify-start'>
                         <div className='md:flex-row flex items-center flex-row-reverse gap-6 w-full md:justify-start justify-center'>
                         <h1 className='font-Arvo text-[#090F1D] md:text-4xl sm:text-3xl text-2xl font-semibold md:py-6'>
@@ -101,6 +109,7 @@ export default function Valve(){
                         className='font-cabin sm:text-l text-base font-bold text-gray-500 md:p-0 p-5'
                         ></p>
                     </div>
+                    </RightL>
                 </div>
             ))}
         </div>

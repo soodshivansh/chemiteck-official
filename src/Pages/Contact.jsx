@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 
 import { toast, ToastContainer } from 'react-toastify';
@@ -7,7 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer"
 import '../Components/Navbar.scss'
-import { NavLink, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import FadeIn from '../Animation/FadeIn';
 
 export default function Contact (){
 
@@ -18,7 +19,6 @@ export default function Contact (){
     }, [location]);
 
     const form = useRef();
-    const [popupMessage, setPopupMessage] = useState(null);
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -36,14 +36,11 @@ export default function Contact (){
         });
     };
 
-    const closePopup = () => {
-        setPopupMessage(null);
-    };
-
 
     return(
         <div>
             <Navbar />
+            <FadeIn>
             <ToastContainer position="top-right" autoClose={3000} />
             <div className="text-white flex md:flex-row flex-col justify-center w-full p-10 mt-16 mb-5 md:gap-0 gap-10">
                 <div className="text-left flex flex-col md:mt-8">
@@ -72,6 +69,7 @@ export default function Contact (){
                                 <p class="text-center text-3xl text-gray-300 mb-4">Enquire</p>
                                 <input class="bg-slate-900 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-800" type="text" placeholder="Full Name" name="Full-Name" required min="0" max="15" />
                                 <input class="bg-slate-900 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-800" type="Email" placeholder="Email" id="Email" name="email" required min="0" max="40" />
+                                <input className="bg-slate-900 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-800" type='number' placeholder="Contact" id="Contact" name="contact" required min="0" max="40" />
                                 <input class="bg-slate-900 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-800" type="text" placeholder="Message" name="message" required min="0" max="200" rows="5" />
                                 <label class="flex cursor-pointer items-center justify-between p-1 text-slate-400">
                                 Accept terms of use
@@ -90,6 +88,7 @@ export default function Contact (){
             <div className="relative p-5 h-[50vh] w-[100%] overflow-hidden">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.7067536462932!2d77.37438527547978!3d28.6385497256615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce57118fc3e19%3A0xe11686805a18e5a1!2sRoyale%20Tower!5e0!3m2!1sen!2sin!4v1701701757100!5m2!1sen!2sin" width="100%" height="100%" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div> 
+            </FadeIn>
             <Footer />
         </div>
     )

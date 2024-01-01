@@ -3,6 +3,7 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 import art1 from '../Assets/photos/Design-removebg-preview.png'
 import art2 from '../Assets/photos/Design2-removebg-preview.png'
 import article1 from '../Assets/articles/Angle Body Piston Valves.pdf'
+import FadeIn from "../Animation/FadeIn";
 
 const Articles = () => {
 
@@ -14,6 +15,7 @@ const Articles = () => {
     }
 
     return(
+        <FadeIn>
         <div id="articles" className="text-black flex flex-col lg:pt-28 lg:pr-28 lg:pl-36 p-16 lg:gap-20 gap-10 w-full overflow-hidden">
             <div className="flex gap-14">
                 <h1 className="font-Arvo lg:text-4xl md:text-4xl sm:text-3xl text-2xl font-bold">Stories & Articles</h1>
@@ -42,7 +44,7 @@ const Articles = () => {
                 </div>
             </div>
         </div>
-
+        </FadeIn>
     )
 }
 

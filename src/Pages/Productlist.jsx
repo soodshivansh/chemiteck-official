@@ -7,7 +7,7 @@ import SSTCFittingsAndValves from '../Components/SSTCFittings&Valves';
 import '../Components/Navbar.scss'
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai';
 import list from '../Components/list.json'
-import { NavLink, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 
 export default function Productlist() {

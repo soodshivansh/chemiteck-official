@@ -1,9 +1,11 @@
 import React from "react";
 import animationdata from '../Assets/Animation - 1701010131495.json'
 import Lottie from "lottie-react";
+import FadeIn from "../Animation/FadeIn";
 
 const Markers = () => {
     return (
+        <FadeIn>
         <div className="text-[#273767] bg-[#EFF9F0] w-full mx-auto p-10">
             <div className="font-Signika max-w-[1300px] w-full mx-auto flex flex-col md:flex-row justify-center items-center lg:gap-20">
                 <div className="flex flex-col gap-5 text-center md:text-left">
@@ -16,6 +18,7 @@ const Markers = () => {
                 </div>
             </div>
         </div>
+        </FadeIn>
     );
 }
 

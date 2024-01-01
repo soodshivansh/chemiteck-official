@@ -3,6 +3,7 @@ import p1 from '../Assets/valve.png'
 import p2 from '../Assets/valve  automation.png'
 import p3 from '../Assets/technology.png'
 import { NavLink, useLocation } from 'react-router-dom';
+import FadeIn from "../Animation/FadeIn";
 
 const Products = () => {
 
@@ -13,6 +14,7 @@ const Products = () => {
     }, [location]);
 
     return(
+        <FadeIn>
         <div className="bg-[#EFF9F0] w-full p-20">
             <div className="text-black max-w-[800px] p-2 w-full mx-auto text-center flex flex-col justify-top">
                 <h1 className="font-Arvo lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-bold">Your Solution in Every Product.</h1>
@@ -32,7 +34,7 @@ const Products = () => {
                 </div></NavLink>
             </div>
         </div>
-
+        </FadeIn>
     )
 }
 

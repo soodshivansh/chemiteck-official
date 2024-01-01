@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-center gap-7 sm:gap-14">
                         {/* <h1 className="text-3xl font-bold text-[#415CAB]"><NavLink to="/">ChemiTeck</NavLink></h1> */}
                         <NavLink to="/"><img className="sm:w-56" src={img2} alt="/" /></NavLink>
-                        <NavLink to="/"><img className="block sm:hidden lg:block w-16 sm:w-20" src={img1} alt="/" /></NavLink>
+                        <NavLink to="/"><img className="block md:hidden lg:block w-16 sm:w-20" src={img1} alt="/" /></NavLink>
                     </div>
                     <ul className="hidden md:flex items-center relative">
                         <NavLink to="/"><li className="p-4 hover:border-b border-black">Home</li></NavLink>

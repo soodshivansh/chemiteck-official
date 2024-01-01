@@ -4,15 +4,17 @@ import part1 from '../Assets/photos/logo2-removebg.png'
 import part2 from '../Assets/photos/ec-logo.png'
 import part3 from '../Assets/photos/flowmaxlogo.png'
 import part4 from '../Assets/photos/ztech-control-system-90x90.png'
+import FadeIn from "../Animation/FadeIn";
 
 const About = () => {
 
     return(
+        <FadeIn>
         <div id="about" className="w-full flex justify-center flex-col items-center md:p-10 p-5 bg-[#EFF9F0]">
             <div className="bg-[#090f1d] rounded-[50px] w-full justify-center flex flex-col lg:p-28 sm:p-14 p-7">
                 <div className="w-full lg:gap-0 gap-10 flex lg:flex-row flex-col items-center justify-center mx-auto">
                     <div className="text-center lg:text-left">
-                        <img className="lg:w-[80%] md:w-2/3 w-4/5 mx-auto" src={logo} alt="/" />
+                        <img className="lg:w-[80%] md:w-2/3 sm:w-3/5 w-4/5 mx-auto" src={logo} alt="/" />
                     </div>
                     <div className="text-white lg:text-left text-center lg:w-[50%]">
                         <h1 className="font-Arvo lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold border-b pb-4">About Our Company</h1>
@@ -57,6 +59,7 @@ const About = () => {
                 </div>
             </div>
         </div>
+        </FadeIn>
     )
 }
 
