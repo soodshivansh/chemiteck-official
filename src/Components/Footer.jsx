@@ -10,12 +10,12 @@ export default function Footer(){
                     <div className="footer-col">
                         <img className='w-[100%]' src={img} alt='/' />
                         <ul>
-                            <li><a href="#" style={{color:"white"}}><strong>Phone:</strong></a></li>
-                            <li><a href="#"><i class="fa-solid fa-square-phone"></i> +91 9560391635</a></li>
-                            <li><a href="#"><i class="fa-solid fa-square-phone"></i> +91 9289381979</a></li>
-                            <li><a href="#" style={{color:"white"}}><strong>Mail:</strong></a></li>
-                            <li><a href="#"><i class="fa-solid fa-envelope"></i> sales@chemiteck.in</a></li>
-                            <li><a href="#"><i class="fa-solid fa-envelope"></i> chemiteck1675@gmail.com</a></li>
+                            <li><a style={{color:"white"}}><strong>Phone:</strong></a></li>
+                            <li><a><i class="fa-solid fa-square-phone"></i> +91 9560391635</a></li>
+                            <li><a><i class="fa-solid fa-square-phone"></i> +91 9289381979</a></li>
+                            <li><a style={{color:"white"}}><strong>Mail:</strong></a></li>
+                            <li><a><i class="fa-solid fa-envelope"></i> sales@chemiteck.in</a></li>
+                            <li><a><i class="fa-solid fa-envelope"></i> chemiteck1675@gmail.com</a></li>
                         </ul>
                     </div>
                     <div className="footer-col">
@@ -31,9 +31,9 @@ export default function Footer(){
                         <h4>Partnership</h4>
                         <ul>
                             <li><a href="https://phbbvalves.com/" target="_blank">PHBB Valves Pvt. Limited</a></li>
-                            <li><a href="#">Engineers Combine</a></li>
-                            <li><a href="#">Flowmax Engineering</a></li>
-                            <li><a href="#">Ztek Flowmeters</a></li>
+                            <li><a>Engineers Combine</a></li>
+                            <li><a>Flowmax Engineering</a></li>
+                            <li><a>Ztek Flowmeters</a></li>
                         </ul>
                     </div>
                     <div className="footer-col">
