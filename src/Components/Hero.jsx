@@ -25,9 +25,9 @@ const Hero = () => {
 
   return (
     <div className="text-white">
-      <div className="max-w-[800px] p-5 w-full mx-auto text-center flex flex-col justify-top mt-10 gap-4">
+      <div className="max-w-[900px] px-1 py-5 w-full mx-auto text-center flex flex-col justify-top mt-10 gap-4">
         <h1 ref={itemref1} className="overflow-hidden classitem font-Arvo text-[#090F1D] lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-semibold md:py-6">
-          Providing Innovative Solutions for Industrial Valves
+          Providing Innovative Solutions for Industrial Valves & Valves Automation
         </h1>
       <motion.div
       variants={{

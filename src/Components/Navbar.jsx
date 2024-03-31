@@ -17,7 +17,7 @@ const Navbar = () => {
     return(
         <>
             <Headroom>
-                <div className={`font-hind flex justify-between items-center h-20 max-w-[1240] mx-auto px-4 text-white bg-[#415cab] border-b`} id="navbar">
+                <div className={`font-hind flex justify-between items-center h-20 max-w-[1240] mx-auto px-4 text-white bg-[#415cab]`} id="navbar">
                     <div className="flex items-center justify-center gap-7 sm:gap-14">
                         {/* <h1 className="text-3xl font-bold text-[#415CAB]"><NavLink to="/">ChemiTeck</NavLink></h1> */}
                         <NavLink to="/"><img className="sm:w-56" src={img2} alt="/" /></NavLink>
@@ -39,6 +39,14 @@ const Navbar = () => {
                     </div>
                     <div onClick={handlenav} className="block md:hidden">
                         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+                    </div>
+                </div>
+                <div className="h-7 bg-black text-white flex justify-between items-center px-5 sm:py-0 py-5 sm:text-md text-xs">
+                    <div>
+                        <p>GST NO: 09BRCPS9403F1ZM</p>
+                    </div>
+                    <div>
+                        <p>UDYAM REGN. NO. : UDYAM-UP-29-0118093</p>
                     </div>
                 </div>
             </Headroom>
