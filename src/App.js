@@ -9,6 +9,7 @@ import SSTCFittingsValves from './Components/SSTCFittings&Valves';
 import Contact from './Pages/Contact';
 import Progressicon from './Components/Progressicon';
 import Cataloguepage from './Pages/Cataloguepage';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
 
