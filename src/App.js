@@ -10,11 +10,12 @@ import Contact from './Pages/Contact';
 import Progressicon from './Components/Progressicon';
 import Cataloguepage from './Pages/Cataloguepage';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 export default function App() {
 
   return (
-
+    <>
     <div className="App">
       <BrowserRouter>
         <Routes>
@@ -30,6 +31,9 @@ export default function App() {
         </Routes>
       </BrowserRouter>
     </div>
+    <Analytics />
+    <SpeedInsights />
+    </>
   );
 }
 
