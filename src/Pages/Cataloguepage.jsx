@@ -5,7 +5,7 @@ import animate from '../Assets/forcatalogue.json';
 import Lottie,{LottieRefCurrentProps} from "lottie-react";
 import { useLocation } from 'react-router-dom';
 
-import pdf1 from '../Assets/catalogues/chemiteck product catalogue v10.15.pdf'
+import pdf1 from '../Assets/catalogues/Chemiteck - Product Catalogue v10.25.pdf'
 import pdf2 from '../Assets/catalogues/Ball Valves - Floaters & Trunion Mounted.pdf'
 import pdf3 from '../Assets/catalogues/Product catalogue - Engineers Combine.pdf'
 import pdf4 from '../Assets/catalogues/PHBB Double & Tripple Offset Butterfly Valves.pdf'
