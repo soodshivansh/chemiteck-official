@@ -63,7 +63,7 @@ export default function Contact (){
                 </div>
                 <div className="flex flex-col items-center justify-center md:w-[50%] w-full">
 
-                    <div class="md:w-[80%] w-full rounded-xl bg-[#090F1D]">
+                    {/* <div class="md:w-[80%] w-full rounded-xl bg-[#090F1D]">
                         <form className="" ref={form} onSubmit={sendEmail}>
                             <div class="flex flex-col gap-2 p-8">
                                 <p class="text-center text-3xl text-gray-300 mb-4">Enquire</p>
@@ -81,13 +81,15 @@ export default function Contact (){
                                 <button class="inline-block cursor-pointer rounded-md bg-gray-700 px-4 py-3.5 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 active:scale-95" type="submit" value="Send">Submit</button>
                             </div>
                         </form>
-                    </div>
+                    </div> */}
+
+                    <div className="relative p-5 h-[50vh] w-[100%] overflow-hidden">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.7067536462932!2d77.37438527547978!3d28.6385497256615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce57118fc3e19%3A0xe11686805a18e5a1!2sRoyale%20Tower!5e0!3m2!1sen!2sin!4v1701701757100!5m2!1sen!2sin" width="100%" height="100%" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> 
 
                 </div>
             </div>
-            <div className="relative p-5 h-[50vh] w-[100%] overflow-hidden">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.7067536462932!2d77.37438527547978!3d28.6385497256615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce57118fc3e19%3A0xe11686805a18e5a1!2sRoyale%20Tower!5e0!3m2!1sen!2sin!4v1701701757100!5m2!1sen!2sin" width="100%" height="100%" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div> 
+            
             </FadeIn>
             <Footer />
         </div>

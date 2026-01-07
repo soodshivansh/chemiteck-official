@@ -13,10 +13,12 @@ import G from '../Assets/photos/Capture11.png'
 import H from '../Assets/photos/Capture12.png'
 import I from '../Assets/photos/Capture-removebg.png'
 import J from '../Assets/photos/r1.png'
-import K from '../Assets/photos/Capture11.png'
+import K from '../Assets/Product images/44-removebg-preview.png'
 import L from '../Assets/Product images/38-removebg-preview.png'
 import M from '../Assets/Product images/39-removebg-preview.png'
 import N from '../Assets/Product images/40-removebg-preview.png'
+import P from '../Assets/photos/42-removebg-preview.png'
+import Q from '../Assets/Product images/43-removebg-preview.png'
 import FadeIn from '../Animation/FadeIn';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -61,7 +63,7 @@ const Parallaxcarousel = () => {
         
       }, []);
 
-      const row1 = [A, B, C, D, E ,N ,L];
+      const row1 = [A, P, Q, D, E ,N ,L];
       const row2 = [ F, G, H, I, J, K, M];
 
     return(
@@ -73,7 +75,7 @@ const Parallaxcarousel = () => {
                         {
                         row1.map((item) => (
                             <div className="box border rounded-xl w-80 h-60">
-                                <img src={item} alt='/' className='w-[50%]'/>
+                                <img src={item} alt='/' className='w-[66%]'/>
                             </div>
                         ))
                         }

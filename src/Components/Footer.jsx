@@ -31,6 +31,7 @@ export default function Footer(){
                         <h4>Partnership</h4>
                         <ul>
                             <li><a href="https://phbbvalves.com/" target="_blank">PHBB Valves Pvt. Limited</a></li>
+                            <li><a href="https://www.gallicassina.com/" target="_blank">Galli & Cassina</a></li>
                             <li><a>Engineers Combine</a></li>
                             <li><a>Flowmax Engineering</a></li>
                             <li><a>Ztek Flowmeters</a></li>

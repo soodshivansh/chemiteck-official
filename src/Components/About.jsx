@@ -4,6 +4,7 @@ import part1 from '../Assets/photos/logo2-removebg.png'
 import part2 from '../Assets/photos/ec-logo.png'
 import part3 from '../Assets/photos/flowmaxlogo.png'
 import part4 from '../Assets/photos/ztech-control-system-90x90.png'
+import part5 from '../Assets/photos/GalliCassina-15.png'
 import FadeIn from "../Animation/FadeIn";
 
 const About = () => {
@@ -18,9 +19,15 @@ const About = () => {
                     </div>
                     <div className="text-white lg:text-left text-center lg:w-[50%]">
                         <h1 className="font-Arvo lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold border-b pb-4">About Our Company</h1>
-                        <p className="font-Signika sm:text-xl pt-10"><b>Chemiteck Engineering Enterprises</b>, an Authorised Channel partner of M/s PHBB Valves Pvt. Limited, M/s Engineers Combine and M/s Flowmax Engineering in North India.</p>
+                        <p className="font-Signika sm:text-xl pt-10"><b>Chemiteck Engineering Enterprises</b>, an Authorised Channel partner of M/s PHBB Valves, M/s Galli&Cassina,  M/s Engineers Combine and M/s Flowmax Engineering in North India.</p>
                         <br />
                         <p className="font-Signika sm:text-xl"><b>PHBB</b> specialised in special services ball & Butterfly valves with exotic metallurgies, complying to most modern & latest technology as well as compliance to latest edition international standards, meeting all your specified requirements in terms of quality, performance & delivery, fully equipped to meet all your Valve and Valve Automation related demands.</p>
+                        <br />
+                        <p className="font-Signika sm:text-xl"><b>M/s Galli & Cassina India Pvt Limited</b>, a world leader in Lubricated and
+                            Non - Lubricated Plug valves with exotic metallurgies, complying to most
+                            modern & latest technology as well as compliance to latest edition
+                            international standards.
+                        </p>
                     </div>
                 </div>
 
@@ -28,14 +35,22 @@ const About = () => {
                     <div>
                         <h1 className="font-Arvo text-white lg:text-4xl md:text-3xl sm:text-2xl text-xl font-bold border-b pb-5">Our Partners</h1>
                     </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-4 xmd:grid-cols-3 sm:grid-cols-2 gap-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-5 xmd:grid-cols-3 sm:grid-cols-2 gap-5">
                         <a href="https://phbbvalves.com/" target="_blank">
-                        <div className="card lg:w-[280px] lg:h-[200px] w-[250px] h-[150px]">
-                            <img src={part1} alt="/" />
-                            <div className="card__content flex items-center justify-center">
-                                <p className="font-Signika card__title">PHBB</p>
+                            <div className="card lg:w-[280px] lg:h-[200px] w-[250px] h-[150px]">
+                                <img src={part1} alt="/" />
+                                <div className="card__content flex items-center justify-center">
+                                    <p className="font-Signika card__title">PHBB</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
+                        <a href="https://www.gallicassina.com/" target="_blank">
+                            <div className="card lg:w-[280px] lg:h-[200px] w-[250px] h-[150px]">
+                                <img src={part5} alt="/" />
+                                <div className="card__content flex items-center justify-center">
+                                    <p className="font-Signika card__title">Galli & Cassina</p>
+                                </div>
+                            </div>
                         </a>
                         <div className="card lg:w-[280px] lg:h-[200px] w-[250px] h-[150px]">
                             <img src={part2} alt="/" />
